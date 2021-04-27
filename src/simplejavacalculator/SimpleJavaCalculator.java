@@ -24,9 +24,9 @@ public class SimpleJavaCalculator {
          calculator.calculateEqual(543.4);
          UI uiCal = new UI();
          uiCal.init();
-//
-//         Fibonnaci foufou = new Fibonnaci();
-//         foufou.runFoufou();
+
+         Fibonnaci foufou = new Fibonnaci();
+         foufou.runFoufou();
       }
       catch (Exception e) {
          System.out.println(e.getMessage());   
