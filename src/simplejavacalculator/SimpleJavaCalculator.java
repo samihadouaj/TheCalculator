@@ -22,8 +22,8 @@ public class SimpleJavaCalculator {
       try {
          Calculator calculator = new Calculator();
          calculator.calculateEqual(543.4);
-//         UI uiCal = new UI();
-//         uiCal.init();
+         UI uiCal = new UI();
+         uiCal.init();
 //
 //         Fibonnaci foufou = new Fibonnaci();
 //         foufou.runFoufou();
